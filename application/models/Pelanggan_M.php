@@ -21,7 +21,8 @@ class Pelanggan_M extends CI_Model{
         return $this->db->get_where($table, $where);
     }
 
-    public function update($nama_pelanggan, $alamat, $telepon, $uid){
+    public function update($id_pelanggan,$nama_pelanggan, $alamat, $telepon, $uid){
+        $this->db->where('id_pelanggan', $id_pelanggan);
         $data = [
             'nama_pelanggan' => $nama_pelanggan,
             'alamat' => $alamat,

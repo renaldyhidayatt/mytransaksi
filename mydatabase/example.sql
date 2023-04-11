@@ -54,14 +54,13 @@ CREATE TABLE
 CREATE TABLE
     IF NOT EXISTS `tbl_transaksi` (
         `id_transaksi` int(50) NOT NULL PRIMARY KEY AUTO_INCREMENT,
-        `kode_transaksi` varchar(15) DEFAULT NULL,
         `no_telp` varchar(15) DEFAULT NULL,
         `id_pelanggan` int(11) DEFAULT NULL,
         `id_nominal` int(30) DEFAULT NULL,
         `id_harga` int(30) DEFAULT NULL,
         `uid` int(5) DEFAULT NULL,
         `status` enum('LUNAS', 'HUTANG') DEFAULT NULL,
-        `tgl_transaksi` datetime DEFAULT NULL,
+        `tgl_transaksi` datetime DEFAULT NULL CURRENT_TIMESTAMP,
         `tgl_tempo` datetime NOT NULL,
         `tgl_bayar` datetime DEFAULT NULL,
         created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,

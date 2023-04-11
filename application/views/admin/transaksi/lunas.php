@@ -2,7 +2,7 @@
 <main class="mt-5 pt-5">
     <div class="container-fluid">
         <div class="row">
-            <h3>Transaksi List</h3>
+            <h3>Lunas List</h3>
             <div class="card">
                 <div class="card-header">
                     <span><i class="bi bi-table me-2"></i></span> Data Table

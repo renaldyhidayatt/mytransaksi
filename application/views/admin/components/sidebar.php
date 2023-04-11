@@ -157,13 +157,13 @@
                             </li>
 
                             <li>
-                                <a href="<?php echo site_url('admin/transaksi/lunas'); ?>" class="nav-link px-3">
+                                <a href="<?php echo site_url('admin/transaksi/listHutang'); ?>" class="nav-link px-3">
                                     <span class="me-2"><i class="bi bi-box-seam"></i></span>
                                     <span>Hutang List</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo site_url('admin/transaksi/lunas'); ?>" class="nav-link px-3">
+                                <a href="<?php echo site_url('admin/transaksi/listLunas'); ?>" class="nav-link px-3">
                                     <span class="me-2"><i class="bi bi-box"></i></span>
                                     <span>Lunas List</span>
                                 </a>
